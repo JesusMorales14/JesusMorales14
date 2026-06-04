@@ -1,9 +1,4 @@
-<style>
-@keyframes wave { 0% { transform: rotate(0deg); } 10% { transform: rotate(14deg); } 20% { transform: rotate(-8deg); } 30% { transform: rotate(14deg); } 40% { transform: rotate(-4deg); } 50% { transform: rotate(10deg); } 60% { transform: rotate(0deg); } 100% { transform: rotate(0deg); } }
-.wave { animation: wave 2s infinite; display: inline-block; }
-</style>
-
-# Hi <span class="wave">👋</span> Jesús Alberto Silva Morales
+# 👋 Jesús Alberto Silva Morales
 
 **Frontend Developer** | Angular Specialist
 
