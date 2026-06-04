@@ -1,74 +1,56 @@
 <style>
-  @keyframes wave {
-    0% { transform: rotate(0deg); }
-    10% { transform: rotate(14deg); }
-    20% { transform: rotate(-8deg); }
-    30% { transform: rotate(14deg); }
-    40% { transform: rotate(-4deg); }
-    50% { transform: rotate(10deg); }
-    60% { transform: rotate(0deg); }
-    100% { transform: rotate(0deg); }
-  }
-  
-  @keyframes slideInDown {
-    from {
-      opacity: 0;
-      transform: translateY(-30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes slideInUp {
-    from {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
-  @keyframes glow {
-    0%, 100% { text-shadow: 0 0 10px rgba(0, 212, 255, 0.5); }
-    50% { text-shadow: 0 0 20px rgba(0, 212, 255, 0.8); }
-  }
-  
-  @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.7; }
-  }
-  
-  @keyframes slideInRight {
-    from {
-      opacity: 0;
-      transform: translateX(-30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  .wave { animation: wave 2s infinite; display: inline-block; transform-origin: 70% 70%; }
-  .title { animation: slideInDown 0.8s ease-out; }
-  .subtitle { animation: slideInUp 1s ease-out 0.2s both; }
-  .badge-container { animation: fadeIn 1.2s ease-out 0.4s both; }
-  .section { animation: slideInUp 0.8s ease-out; }
-  .glow-text { animation: glow 3s ease-in-out infinite; }
-  .pulse-icon { animation: pulse 2s ease-in-out infinite; }
-  .highlight { animation: slideInRight 0.6s ease-out; }
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes slideInDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes glow {
+  0%, 100% { text-shadow: 0 0 10px rgba(0, 212, 255, 0.5); }
+  50% { text-shadow: 0 0 20px rgba(0, 212, 255, 0.8); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.wave { animation: wave 2s infinite; display: inline-block; transform-origin: 70% 70%; }
+.title { animation: slideInDown 0.8s ease-out; }
+.subtitle { animation: slideInUp 1s ease-out 0.2s both; }
+.badge-container { animation: fadeIn 1.2s ease-out 0.4s both; }
+.section { animation: slideInUp 0.8s ease-out; }
+.glow-text { animation: glow 3s ease-in-out infinite; }
+.pulse-icon { animation: pulse 2s ease-in-out infinite; }
+.highlight { animation: slideInRight 0.6s ease-out; }
 </style>
 
-# <span class="title">Hi <span class="wave">👋</span> Jesús Alberto Silva Morales</span>
+<h1 class="title">Hi <span class="wave">👋</span> Jesús Alberto Silva Morales</h1>
 
 <div align="center" class="subtitle">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=500&lines=Frontend+Developer;Angular+Specialist;Modern+%26+Scalable+Interfaces" alt="Typing SVG" />
