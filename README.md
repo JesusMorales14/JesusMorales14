@@ -21,10 +21,9 @@ Desarrollador frontend apasionado por crear interfaces modernas, escalables y ac
 
 ## 💡 Core Competencies
 
-- **Angular & TypeScript** - Advanced
-- **Responsive Design** - Expert
-- **Component Architecture** - Advanced
-- **Performance Optimization** - Advanced
+- **Angular y TypeScript** - Intermedio
+- **Diseño responsivo** - Intermedio
+- **Arquitectura de componentes** - Avanzado
 
 ---
 
@@ -32,7 +31,6 @@ Desarrollador frontend apasionado por crear interfaces modernas, escalables y ac
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jesus-silva-morales/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:jesusalbertosilvamorales@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/JesusMorales14)
 
 ---
 
