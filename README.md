@@ -1,5 +1,5 @@
 # 👋 Jesús Alberto Silva Morales
-**Frontend Developer** | Angular Specialist
+**Frontend Developer** | React Specialist
 
 Desarrollador frontend apasionado por crear interfaces modernas, escalables y accesibles. Especializado en Angular y arquitectura de componentes.
 
